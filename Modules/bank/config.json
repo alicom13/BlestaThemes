@@ -4,12 +4,11 @@
     "description": "Bank.description",
     "authors": [
         {
-            "name": "Phillips Data, Inc.",
+            "name": "Mas ALI and Phillips Data, Inc.",
             "url": "https://www.blesta.com"
         }
     ],
     "currencies": [
-        "AED", "AFN", "ALL", "IDR", "ILS", "IMP", "INR", "IQD", "IRR", "ISK",
-        "JEP", "JMD", "JOD", "YER", "ZAR", "ZMW", "ZWD"
+        "AED", "AFN", "ALL", "IDR"
     ]
 }
