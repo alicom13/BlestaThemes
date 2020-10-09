@@ -1,8 +1,8 @@
 <?php
 /**
- * Offline Payment Gateway
+ * Bank Transfer Payment Gateway
  *
- * Allows instructions to be displayed to the client informing them on how to submit payment offline
+ * Allows instructions to be displayed to the client informing them about account banking
  *
  * @package blesta
  * @subpackage blesta.components.gateways.offline
@@ -10,7 +10,7 @@
  * @license http://www.blesta.com/license/ The Blesta License Agreement
  * @link http://www.blesta.com/ Blesta
  */
-class Offline extends NonmerchantGateway
+class Bank extends NonmerchantGateway
 {
     /**
      * @var array An array of meta data for this gateway
