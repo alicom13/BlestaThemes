@@ -1,3 +1,6 @@
 first_name,last_name,email,address,city,state_code,postal_code,country_code,phone,company
 John,Miller,j.miller@gmail.com,123 Elm St.,Orange,CA,92806,US,7145555555,Miller Corp
 Elizabeth,Moran,liz@gmail.com,672 Claremont Pl,Anaheim,92805,CA,US,NA
+
+
+https://www.blesta.com/forums/index.php?/topic/10361-csv-importer/
