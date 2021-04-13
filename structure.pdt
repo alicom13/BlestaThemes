@@ -167,8 +167,8 @@ $(col_id).collapse('toggle');
                                 }
                                 if ($dropdown) {
                                     $attributes['class'][] = 'collapse';
-                                    $link_attributes['class'][] = 'collapse';
-                                    $link_attributes['data-toggle'][] = 'collapsed';
+                                    $link_attributes['class'][] = 'collapsed';
+                                    $link_attributes['data-toggle'][] = 'dropdown-toggle';
 
                                     // Set parent to active if child is
                                     if (!$active) {
@@ -212,7 +212,7 @@ $(col_id).collapse('toggle');
                             <?php
                             if ($this->Html->ifSet($logged_in)) {
                             ?>
-                            <li class="nav-item collapse">
+                            <li class="nav-item">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="collapse">
                                     <?php $this->Html->_($contact->first_name);?> <?php $this->Html->_($contact->last_name);?>
                                     <b class="caret"></b>
